@@ -14,7 +14,6 @@ const ContactForm = () => {
         setName('');
         setNumber('');
     };
-
     return (
         <form onSubmit={handleSubmit} className={styles.form}>
             <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" required />
